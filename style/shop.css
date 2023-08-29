@@ -1,0 +1,30 @@
+/* common shared style */
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* banner related styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0;
+}
+.banner{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-content{
+    
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 16px 0;
+}
