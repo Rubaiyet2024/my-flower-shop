@@ -2,6 +2,14 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;    
+}
 /* banner related styles */
 .header{
     background: rgba(229, 84, 115, 0.10);
@@ -18,13 +26,79 @@ body{
     font-size: 80px;
     font-weight: 800;
 }
-.banner-content{
-    
-}
-.banner-description{
+.banner-description,.section-description,.deal-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 16px 0;
 }
+/* new section  */
+.feature-content{
+    text-align: center;
+}
+.section-title,.deal-title{
+    margin-top: 150px;
+    color: #272727;
+    font-size: 40px;
+}
+.image-section{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;  
+}
+.image-info{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    justify-content: space-evenly;
+    max-width: 450px;
+    max-height: 500px;
+}
+/* another section */
+.information{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 150px 150px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.picture-info{
+    text-align: center;
+    margin: 200px 0 20px;
+}
+.picture{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 48px;
+}
+.container{
+    text-align: center;
+    background-image: url(../flower-asset/Rectangle\ 9.png);
+    background-size: auto;
+    margin: 64px 240px;
+    padding-top: 5px;
+    width: 1440px;
+    height: 420px;
+}
+.footer{
+    text-align: center;
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    
+}
+.shop-footer{
+    margin: 150px 0;
+    padding: 100px 0;
+}
+
+   
